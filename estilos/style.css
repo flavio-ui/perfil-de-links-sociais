@@ -10,7 +10,8 @@ body {
     border: 1px solid red;
     background-color: hsl(0, 0%, 8%);
     align-content: center;
-    height: 97vh;
+    height: 100vh;
+    margin: 0px;
 }
 
 img {
@@ -28,6 +29,7 @@ div#conteiner {
     align-items: center;
     margin: 8px;
     padding: 0px 24px;
+    margin: 0px;
 } 
 
 
