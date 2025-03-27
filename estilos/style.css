@@ -69,6 +69,9 @@ p {
     line-height: 21px;
     font: 400 14px var(--font-principal);
     margin-top: 0px;
+    width: 279px;
+    height: 21px;
+    margin-bottom: 7px;
 }
 
 nav > a {
