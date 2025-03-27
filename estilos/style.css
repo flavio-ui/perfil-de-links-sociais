@@ -6,99 +6,96 @@
     --font-principal: "Inter", sans-serif;
 }
 
-/*
- 
-*/
+body {
+    border: 1px solid red;
+    background-color: hsl(0, 0%, 8%);
+    align-content: center;
+    height: 97vh;
+}
 
-@media all and (max-width: 600px) {
-    body {
-        background-color: hsl(0, 0%, 8%);
-        margin-top: 50px; 
-    }
+img {
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+    display: block;
+    margin: auto;
+}
 
-    img {
-        width: 88px;
-        height: 88px;
-        border-radius: 999px;
-        display: block;
-        margin: auto;
-    }
+div#conteiner {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 0px 24px;
+} 
 
-    div#conteiner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 8px;
-    }
 
+div#filho {
+    border: 1px solid red;
+    background-color: hsl(0, 0%, 12%);
+    width: 279px;
+    height: 531px;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 24px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: var(--font-principal);
+    width: 279px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+p#verd {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    width: 279px;
+    height: 21px;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
     
-    div#filho {
-        background-color: hsl(0, 0%, 12%);
-        width: 279;
-        height: 500px;
-        padding: 24px;
-        border-radius: 12px;
-        margin: 24px;
-        flex-direction: column;
-        align-items: center;
-        
-    }
+}
 
-    div > h1 {
-        color: hsl(0, 0%, 100%);
-        text-align: center;
-        font-family: var(--font-principal);
-        width: 279px;
-        height: 36px;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
-    }
+nav > a {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    display: block; 
+    text-decoration: none;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin:  8px;
+    width: 255px;
+    height: 21px;
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
 
-    p#verd {
-        color: hsl(75, 94%, 57%);
-        text-align: center;
-        font-family: var(--font-principal);
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-        width: 279px;
-        height: 21px;
-    }
-
-    p {
-        color: hsl(0, 0%, 100%);
-        text-align: center;
-        font-family: var(--font-principal);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 21px;
-        
-    }
-
-    nav > a {
-        background-color: hsl(0, 0%, 20%);
-        color: hsl(0, 0%, 100%);
-        display: block; 
-        text-decoration: none;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 8px;
-        margin:  8px;
-
-        width: 255px;
-        height: 21px;
-
-        font-family: var(--font-principal);
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-    }
-
-    nav > a:hover {
-        background-color: hsl(75, 94%, 57%);
-        color: black;
-    }
+nav > a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
